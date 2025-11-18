@@ -82,7 +82,6 @@
     <!-- Hero Section -->
     <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         <div class="absolute inset-0 z-0">
-            <!-- Updated to use your uploaded files if possible, fallback to web image -->
             <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1920&q=80" alt="Modern Home Lighting" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-slate-900/90"></div>
         </div>
@@ -110,7 +109,7 @@
         <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-white/70"><i class="fa-solid fa-chevron-down text-2xl"></i></div>
     </section>
 
-    <!-- Products Section (Updated with YOUR filenames) -->
+    <!-- Products Section (Updated Filenames) -->
     <section id="products" class="py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -123,8 +122,8 @@
                 <!-- Card 1: Fans -->
                 <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
                     <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
-                        <!-- Using exact filename from your screenshot: fan photo.jpeg -->
-                        <img src="fan photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Fan+Photo+Not+Found'" alt="Ceiling Fan" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <!-- Correct: fan photo.jpeg -->
+                        <img src="fan photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Fan+Photo+Missing'" alt="Ceiling Fan" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <h3 class="text-white text-xl font-bold drop-shadow-md">Fans</h3>
                         </div>
@@ -138,8 +137,8 @@
                 <!-- Card 2: Lighting -->
                 <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
                     <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
-                        <!-- Using exact filename from your screenshot: led photo.jpg -->
-                        <img src="led photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=LED+Photo+Not+Found'" alt="LED Lighting" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <!-- Corrected: led photo.jpeg (was jpg) -->
+                        <img src="led photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=LED+Photo+Missing'" alt="LED Lighting" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <h3 class="text-white text-xl font-bold drop-shadow-md">LED Lighting</h3>
                         </div>
@@ -153,8 +152,8 @@
                 <!-- Card 3: Appliances -->
                 <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
                     <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
-                        <!-- Using exact filename from your screenshot: appliances photo.jpeg -->
-                        <img src="appliances photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Appliance+Photo+Not+Found'" alt="Home Appliances" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <!-- Correct: appliances photo.jpeg -->
+                        <img src="appliances photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Appliance+Photo+Missing'" alt="Home Appliances" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <h3 class="text-white text-xl font-bold drop-shadow-md">Home Appliances</h3>
                         </div>
@@ -168,8 +167,8 @@
                 <!-- Card 4: Switches -->
                 <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
                     <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
-                        <!-- Using exact filename from your screenshot: switch photo.jpg -->
-                        <img src="switch photo.jpg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Switch+Photo+Not+Found'" alt="Switchgear" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <!-- Correct: switch photo.jpg -->
+                        <img src="switch photo.jpg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Switch+Photo+Missing'" alt="Switchgear" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             <h3 class="text-white text-xl font-bold drop-shadow-md">Switches & Gear</h3>
                         </div>
@@ -244,5 +243,4 @@
         document.querySelectorAll('#mobile-menu a').forEach(link => link.addEventListener('click', () => menu.classList.add('hidden')));
     </script>
 </body>
-
 </html>
