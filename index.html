@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samar Enterprises | Havells Wholesale Udaipur</title>
+    <meta name="description" content="Wholesale and Retail distributor of Havells appliances in Udaipur. Located at Maldaas Street. GSTIN: 08ALEPB0787A1ZL.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a', 
+                            accent: '#ea580c', 
+                            light: '#f1f5f9',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="bg-brand-light text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="bg-brand-accent text-white w-10 h-10 rounded-lg flex items-center justify-center text-xl font-bold shadow-lg">S</div>
+                    <div>
+                        <span class="font-serif text-2xl font-bold text-slate-900 block leading-none">Samar</span>
+                        <span class="text-xs tracking-widest uppercase text-slate-600 font-semibold">Enterprises</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-slate-700 hover:text-brand-accent font-semibold transition">Home</a>
+                    <a href="#about" class="text-slate-700 hover:text-brand-accent font-semibold transition">About Us</a>
+                    <a href="#products" class="text-slate-700 hover:text-brand-accent font-semibold transition">Products</a>
+                    <a href="#contact" class="bg-brand-dark text-white px-6 py-2.5 rounded-full hover:bg-slate-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-sm font-bold">Contact Us</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-700 hover:text-brand-dark focus:outline-none p-2">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-slate-200 absolute w-full shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#home" class="block px-4 py-3 rounded-lg text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-accent">Home</a>
+                <a href="#about" class="block px-4 py-3 rounded-lg text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-accent">About Us</a>
+                <a href="#products" class="block px-4 py-3 rounded-lg text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-accent">Products</a>
+                <a href="#contact" class="block px-4 py-3 rounded-lg text-base font-medium text-brand-accent font-bold bg-orange-50">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div class="absolute inset-0 z-0">
+            <!-- Updated to use your uploaded files if possible, fallback to web image -->
+            <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1920&q=80" alt="Modern Home Lighting" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-slate-900/90"></div>
+        </div>
+        <div class="relative z-10 text-center max-w-5xl px-4 py-12">
+            <span class="inline-block py-1.5 px-4 rounded-full bg-brand-accent text-white text-sm font-bold mb-8 uppercase tracking-wider shadow-lg border border-white/20">Since 2017 • Udaipur</span>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-2xl">Powering Homes with <br> <span class="text-brand-accent">Excellence</span></h1>
+            <p class="text-xl md:text-2xl text-slate-100 mb-10 max-w-3xl mx-auto font-medium drop-shadow-md leading-relaxed">Premier Wholesale & Retail distributor of Havells appliances, premium electronics, and electrical solutions.</p>
+            
+            <!-- Catalogues -->
+            <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 mb-10 mx-auto max-w-4xl">
+                <h3 class="text-white font-bold text-lg mb-4 border-b border-white/20 pb-2 inline-block">Official Havells Catalogues</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    <a href="https://havells.com/media/wysiwyg/Brochure-and-pricelist/Consumer_Industrial_Fans/Catalogue_Havells_Consumer_Industrial_Fans.pdf" target="_blank" class="flex items-center justify-center gap-2 bg-white text-slate-900 px-4 py-3 rounded-lg hover:bg-brand-accent hover:text-white transition font-semibold text-sm shadow-lg group"><i class="fa-solid fa-fan text-brand-accent group-hover:text-white"></i> Fans PDF</a>
+                    <a href="https://havells.com/media/wysiwyg/Brochure-and-pricelist/Consumer_LED_Lighting/Havells_ConsumerLEDLighting.pdf" target="_blank" class="flex items-center justify-center gap-2 bg-white text-slate-900 px-4 py-3 rounded-lg hover:bg-brand-accent hover:text-white transition font-semibold text-sm shadow-lg group"><i class="fa-regular fa-lightbulb text-brand-accent group-hover:text-white"></i> Lights PDF</a>
+                    <a href="https://www.havells.com/media/HavellsWebsitePdf/CorporatePdf/dam/havells/brouchers/consumer-led-lighting/Consumer%20LED%20Lighting%20Catalogue%202016.pdf" target="_blank" class="flex items-center justify-center gap-2 bg-white text-slate-900 px-4 py-3 rounded-lg hover:bg-brand-accent hover:text-white transition font-semibold text-sm shadow-lg group"><i class="fa-solid fa-bolt text-brand-accent group-hover:text-white"></i> LED '16 PDF</a>
+                    <a href="https://havells.com/media/wysiwyg/Brochure-and-pricelist/Appliances/Catalogue_Havells_Appliances.pdf" target="_blank" class="flex items-center justify-center gap-2 bg-white text-slate-900 px-4 py-3 rounded-lg hover:bg-brand-accent hover:text-white transition font-semibold text-sm shadow-lg group"><i class="fa-solid fa-blender text-brand-accent group-hover:text-white"></i> Appliances PDF</a>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#products" class="px-8 py-4 bg-white text-slate-900 rounded-full font-bold hover:bg-slate-200 transition shadow-xl">View Products</a>
+                <a href="tel:+919799029209" class="px-8 py-4 bg-brand-accent text-white rounded-full font-bold hover:bg-orange-700 transition shadow-xl flex items-center justify-center gap-2"><i class="fa-solid fa-phone"></i> Call +91 97990 29209</a>
+            </div>
+        </div>
+        <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-white/70"><i class="fa-solid fa-chevron-down text-2xl"></i></div>
+    </section>
+
+    <!-- Products Section (Updated with YOUR filenames) -->
+    <section id="products" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">Our Product Range</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto text-lg">We offer a comprehensive selection of Havells appliances and electronics designed for modern living.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Card 1: Fans -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
+                    <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
+                        <!-- Using exact filename from your screenshot: fan photo.jpeg -->
+                        <img src="fan photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Fan+Photo+Not+Found'" alt="Ceiling Fan" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                            <h3 class="text-white text-xl font-bold drop-shadow-md">Fans</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm mb-4 font-medium">Premium ceiling fans, pedestal fans, and exhaust fans designed for superior air delivery and style.</p>
+                        <a href="https://havells.com/media/wysiwyg/Brochure-and-pricelist/Consumer_Industrial_Fans/Catalogue_Havells_Consumer_Industrial_Fans.pdf" target="_blank" class="text-brand-accent text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all">View Catalogue <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Lighting -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
+                    <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
+                        <!-- Using exact filename from your screenshot: led photo.jpg -->
+                        <img src="led photo.jpg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=LED+Photo+Not+Found'" alt="LED Lighting" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                            <h3 class="text-white text-xl font-bold drop-shadow-md">LED Lighting</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm mb-4 font-medium">Energy-efficient LED bulbs, panel lights, COBs, and decorative lighting solutions.</p>
+                        <a href="https://havells.com/media/wysiwyg/Brochure-and-pricelist/Consumer_LED_Lighting/Havells_ConsumerLEDLighting.pdf" target="_blank" class="text-brand-accent text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all">View Catalogue <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Appliances -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
+                    <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
+                        <!-- Using exact filename from your screenshot: appliances photo.jpeg -->
+                        <img src="appliances photo.jpeg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Appliance+Photo+Not+Found'" alt="Home Appliances" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                            <h3 class="text-white text-xl font-bold drop-shadow-md">Home Appliances</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm mb-4 font-medium">High-performance mixer grinders, irons, kettles, and water heaters.</p>
+                        <a href="https://havells.com/media/wysiwyg/Brochure-and-pricelist/Appliances/Catalogue_Havells_Appliances.pdf" target="_blank" class="text-brand-accent text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all">View Catalogue <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 4: Switches -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100">
+                    <div class="h-56 overflow-hidden bg-slate-100 relative flex items-center justify-center">
+                        <!-- Using exact filename from your screenshot: switch photo.jpg -->
+                        <img src="switch photo.jpg" onerror="this.src='https://placehold.co/600x400/f1f5f9/ea580c?text=Switch+Photo+Not+Found'" alt="Switchgear" class="w-full h-full object-cover transition duration-500 opacity-90 group-hover:opacity-100 hover:scale-110">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                            <h3 class="text-white text-xl font-bold drop-shadow-md">Switches & Gear</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm mb-4 font-medium">Modular switches, Crabtree series, MCBs, and distribution boards.</p>
+                        <span class="text-brand-accent text-sm font-semibold flex items-center gap-1">View Range <i class="fa-solid fa-arrow-right text-xs"></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">Get in Touch</h2>
+                <p class="text-slate-600 text-lg">Visit our store at Maldaas Street or contact us for orders.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-100">
+                <div class="p-10 lg:p-16 bg-slate-900 text-white flex flex-col justify-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-brand-accent/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                    <h3 class="text-2xl font-bold mb-8 border-b border-white/20 pb-4 relative z-10">Contact Details</h3>
+                    <div class="space-y-8 relative z-10">
+                        <div class="flex items-start gap-6">
+                            <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 text-brand-accent text-xl"><i class="fa-solid fa-user"></i></div>
+                            <div><p class="text-slate-400 text-sm uppercase tracking-wider mb-1">Owner</p><p class="text-xl font-semibold">Mr. Babal Bapna</p></div>
+                        </div>
+                        <div class="flex items-start gap-6">
+                            <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 text-brand-accent text-xl"><i class="fa-solid fa-location-dot"></i></div>
+                            <div><p class="text-slate-400 text-sm uppercase tracking-wider mb-1">Address</p><p class="text-lg font-semibold leading-snug">27, Bapna Ki Sehri,<br>Maldaas Street,<br>Udaipur, Rajasthan - 313001</p></div>
+                        </div>
+                        <a href="tel:+919799029209" class="flex items-start gap-6 group">
+                            <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 text-brand-accent text-xl group-hover:bg-brand-accent group-hover:text-white transition"><i class="fa-solid fa-phone"></i></div>
+                            <div><p class="text-slate-400 text-sm uppercase tracking-wider mb-1">Phone</p><p class="text-xl font-semibold group-hover:text-brand-accent transition">+91 97990 29209</p></div>
+                        </a>
+                        <a href="mailto:samarenterprisesudr@gmail.com" class="flex items-start gap-6 group">
+                            <div class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 text-brand-accent text-xl group-hover:bg-brand-accent group-hover:text-white transition"><i class="fa-solid fa-envelope"></i></div>
+                            <div><p class="text-slate-400 text-sm uppercase tracking-wider mb-1">Email</p><p class="text-xl font-semibold group-hover:text-brand-accent transition break-all">samarenterprisesudr@gmail.com</p></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative h-full min-h-[400px] lg:min-h-auto bg-slate-100">
+                    <iframe src="https://www.google.com/maps?q=27,+Bapna+Ki+Sehri,+Maldaas+Street,+Udaipur,+Rajasthan&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute inset-0 w-full h-full" title="Location Map of Samar Enterprises"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <span class="font-serif text-2xl font-bold text-slate-900 block">Samar Enterprises</span>
+                <p class="text-slate-500 text-sm mt-2">© <script>document.write(new Date().getFullYear())</script> Samar Enterprises. All Rights Reserved.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-8 items-center">
+                <a href="#home" class="text-slate-500 hover:text-brand-accent transition font-medium">Home</a>
+                <a href="#products" class="text-slate-500 hover:text-brand-accent transition font-medium">Products</a>
+                <a href="#contact" class="text-slate-500 hover:text-brand-accent transition font-medium">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+        document.querySelectorAll('#mobile-menu a').forEach(link => link.addEventListener('click', () => menu.classList.add('hidden')));
+    </script>
+</body>
+</html>
